@@ -787,7 +787,7 @@ main{
 /* SLA */
 
 .sla{
-    margin: 10.8rem auto 0;
+    margin: 10.8rem auto 15rem;
     width: 109rem;
     height: 50rem;
     background: var(--primary-light);
@@ -824,7 +824,6 @@ main{
 }
 
 .container-rate-us-end button{
-    margin: 20rem 0 0 0;
     padding: 0.8rem 6.3rem;
     width: 19rem;
     height: 5rem;
