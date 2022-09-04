@@ -353,7 +353,6 @@ main{
 /* INFO AUTOR IMAGE*/
 
 .biografia-candido .biografia-info-autor .image-autor{
-    display: flex;
     background: var(--primary-dark);
     width: 27.5rem;
     height: 35rem;
@@ -362,18 +361,20 @@ main{
     border-top-right-radius: 5rem;
 }
 
+.biografia-candido .biografia-info-autor .image-autor picture{
+    width: 23.9rem;
+    height: 34.4rem;
+}
+    
+
 /* INFO AUTOR IMAGE SUBTITLE */
 
 .biografia-candido .biografia-info-autor .image-autor cite{
+    display: flex;
     font-weight: 500;
     color: var(--gray);
-    transform: rotate(270deg);
-    padding: 28rem 0 0 0;
-}
-
-.biografia-candido .biografia-info-autor .image-autor cite p{
-    width: 16rem;
-    font-size: 1.4rem;
+    width: 18.5rem;
+    margin: 0 0 0 7rem;
 }
 
 /* INFO AUTOR TEXT*/
@@ -462,25 +463,28 @@ main{
 /* INFO AUTOR IMAGE*/
 
 .biografia-elvis .biografia-info-autor .image-autor{
-    display: flex;
     background: var(--primary-dark);
     width: 27.5rem;
     height: 35rem;
-    padding: 6rem 0 0 1.6rem;
+    padding: 6rem 2rem;
     border-radius: 1rem;
     border-top-left-radius: 5rem;
 }
 
+.biografia-elvis .biografia-info-autor .image-autor picture{
+    width: 26.7rem;
+    height: 33rem;
+}
+    
+
 /* INFO AUTOR IMAGE SUBTITLE */
 
 .biografia-elvis .biografia-info-autor .image-autor cite{
+    display: flex;
     font-weight: 500;
     color: var(--gray);
-    transform: rotate(270deg);}
-
-.biografia-elvis .biografia-info-autor .image-autor cite p{
-    width: 16rem;
-    font-size: 1.4rem;
+    width: 18.5rem;
+    margin: 0 0 0 7rem;
 }
 
 /* INFO AUTOR TEXT*/
@@ -564,7 +568,6 @@ main{
 /* INFO AUTOR IMAGE*/
 
 .biografia-manuel .biografia-info-autor .image-autor{
-    display: flex;
     background: var(--primary-dark);
     width: 27.5rem;
     height: 35rem;
@@ -573,18 +576,20 @@ main{
     border-top-right-radius: 5rem;
 }
 
+.biografia-manuel .biografia-info-autor .image-autor picture{
+    width: 23.9rem;
+    height: 34.4rem;
+}
+    
+
 /* INFO AUTOR IMAGE SUBTITLE */
 
 .biografia-manuel .biografia-info-autor .image-autor cite{
+    display: flex;
     font-weight: 500;
     color: var(--gray);
-    transform: rotate(270deg);
-    padding: 28rem 0 0 0;
-}
-
-.biografia-manuel .biografia-info-autor .image-autor cite p{
-    width: 16rem;
-    font-size: 1.4rem;
+    width: 18.5rem;
+    margin: 0 0 0 7rem;
 }
 
 /* INFO AUTOR TEXT*/
