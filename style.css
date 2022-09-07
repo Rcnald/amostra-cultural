@@ -74,7 +74,6 @@ nav{
 
 /* NAVBAR */
 
-
 .container-navbar ul{
     display: flex;
 }
@@ -129,7 +128,6 @@ nav{
     font-weight: 600;
     font-size: 20;
 }
-
 
 .banner{
     width: 114rem;
