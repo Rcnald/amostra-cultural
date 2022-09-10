@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* CSS RESET */
@@ -80,10 +81,6 @@ main{
     align-items: center;
 }
 
-.container-descricao > *{
-    padding: 3rem 0 0 0;
-}
-
 .container-descricao .descricao-info{
     display: flex;
     justify-content: center;
@@ -94,7 +91,7 @@ main{
 /* DESCRICAO IMAGE */
 
 .container-descricao .descricao-image img{
-    width: 15rem;
+    width: 18rem;
 }
 
 /* DESCRICAO TITLE */
@@ -102,6 +99,7 @@ main{
 .home .descricao .container-descricao h3{
     font-size: 3.1rem;
     color: var(--primary-dark);
+    text-align: center;
     
 }
 
@@ -195,7 +193,7 @@ form fieldset input{
 }
 
 .container-login .login-buttons button{
-    padding: 0.9rem 10rem;
+    padding: 0.9rem 6.3rem;
     border-radius: 0.8rem;
     max-width: 21rem;
     font-family: 'Rubik', sans-serif;
@@ -205,6 +203,7 @@ form fieldset input{
     border: none;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 /* FOOTER */

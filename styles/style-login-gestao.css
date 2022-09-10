@@ -57,8 +57,6 @@ body{
 main{
     width: 111rem;
     height: auto;
-    margin: 0 auto !important; 
-	float: none !important; 
 }
 
 /* CONTAINER */
@@ -167,17 +165,17 @@ main{
 /* LOGIN FORM */
 
 form > *{
-    padding: 0 0 1rem 0;
+    padding: 0 0 0.3rem 0;
 }
 
 form fieldset:first-child{
     display: flex;
-    gap: 1rem;  
+    gap: 0.3rem;  
     border: none;
 }
 
 form fieldset:first-child input{
-    width: 10rem;
+    width: 10.4rem;
     height: 3.3rem;
     border-radius: 0.8rem;
     padding: 0 0 0 1rem;

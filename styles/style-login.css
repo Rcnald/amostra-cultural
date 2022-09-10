@@ -41,8 +41,6 @@ body{
 main{
     width: 111rem;
     height: auto;
-    margin: 0 auto !important; 
-	float: none !important; 
 }
 
 /* CONTAINER */

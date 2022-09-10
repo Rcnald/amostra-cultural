@@ -44,60 +44,72 @@ li:hover a{
     --fc-text-title: #FF7070;
 }
 
-body:not(.rate-us-end){
+body{
     font-size: 1.6rem;
     font-family: 'Jost', sans-serif;
-    width: 100vw;
-    max-width: 100%;
-    height: 100vh;
-    /* background: var(--white); */
+    height: auto;
     background-image: url('./assets/bg-body.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* margin: 0 auto !important; 
-	float: none !important;  */
-
 }
 
 header{
-    max-width: 114rem;
-    width: 114rem;
+    max-width: 1140px;
+    width: 90%;
     padding: 5.8rem 0 0 0;
-    margin: 0 auto !important; 
-	float: none !important; 
+    margin: auto;
 }
 
 nav{
     display: flex;
     align-items: center;
+    margin: 0 0 58px 0;
+    height: 60px;
+    width: 100%;
+    max-width: 1140px;
+}
+
+nav > *{
+    padding: 0 0 0 1rem;
+}
+
+.container-nav{
+    display: flex;
     justify-content: space-between;
-    padding: 0 3rem 0 0;
-    margin: 0 0 5.8rem 0;
-    height: 6rem;
+    width: 100%;
+    max-width: 107rem;
+}
+
+/* LOGO */
+
+.image-logo img{
+    width: 6rem;
 }
 
 /* NAVBAR */
 
-.container-navbar ul{
+#nav-bar ul{
     display: flex;
 }
 
-.container-navbar li{
+#nav-bar li{
     padding: 1rem;
 }
 
-.container-navbar li a{
+#nav-bar li a{
     color: var(--gray);
     font-weight: 500;
     font-size: 18;
+}
+
+#menu-mobile{
+    display: none;
 }
 
 /* CONTATO */
 
 .container-contato{
     display: flex;
-    width: 39rem;
-   padding: 0 0 0 13rem;
 }
 
 /* RATE US */
@@ -106,23 +118,28 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 2.5rem;
+    padding: 0 1rem;
 }
 
-.rate-us svg, picture{
+.rate-us a,svg, picture{
     width: 2.4rem;
     height: 2.4rem;
+}
+
+.rate-us a + a{
+    width: auto;
+    height: auto;
 }
 
 .rate-us a{
     color: var(--gray);
     font-weight: 500;
-    font-size: 18;
+    font-size: 1.8rem;
 }
 
 /* LOGIN */
 
-.login button{
+/* .login button{
     padding: 1.1rem 3.9rem;
     border-radius: 1rem;
 }
@@ -131,71 +148,76 @@ nav{
     color: var(--secondary-dark);
     font-weight: 600;
     font-size: 20;
-}
+} */
 
-.banner{
-    width: 114rem;
+#banner{
+    width: 100%;
+    max-width: 114rem;
     height: 60rem;
     padding: 6rem;
-    background: var(--gradient-base);
+    background: url('./assets/bg-banner.svg');
     border-radius: 4.8rem;
     border-bottom-right-radius: 30rem;
-}
-
-/* OBJECTS */
-
-.banner-objects-up, .banner-objects-down{
-    position: absolute;
-    width: 15.5rem;
-    height: 15.5rem;
-    border-radius: 10rem;
-    background: rgb(209,76,76);
-    background: linear-gradient(153deg, rgba(209,76,76,1) 0%, rgba(141,38,24,1) 100%);
-}
-
-/* UP */
-
-.banner-objects-up{
-    margin: 10.8rem 32.2rem 33.7rem  66.3rem ;
-}
-
-/* DOWN */
-
-.banner-objects-down{
-    margin: 22.4rem 12.2rem 22.1rem 86.3rem;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 /* TEXT */
 
-.banner h1{
+#banner h1{
     font-weight: 700;
     font-size: 6.1rem;
     color: var(--white);
 }
 
-.banner p{
+#banner p{
     font-weight: 500;
     font-size: 1.8rem;
     color: var(--fc-text-accent);
     text-align: justify;
-    width: 49rem;
+    width: 100%;
+    max-width: 49rem;
     padding: 4rem 0 11rem 0 ;
 }
 
 /* BUTTON */
 
-.banner button{
+#banner button{
     background: var(--primary-dark);
     padding: 1.5rem 1.7rem;
     border-radius: 1rem;
     border: none;
 }
 
-.banner a button {
+#banner a button {
     font-weight: 500;
     font-size: 1.8rem;
     color: var(--fc-text-buttons);      
 }
+
+/* OBJECTS */
+
+/* .banner-objects-up, .banner-objects-down{
+    position: absolute;
+    width: 15.5rem;
+    height: 15.5rem;
+    border-radius: 10rem;
+    background: rgb(209,76,76);
+    background: linear-gradient(153deg, rgba(209,76,76,1) 0%, rgba(141,38,24,1) 100%);
+} */
+
+/* UP */
+
+/* .banner-objects-up{
+    margin: 10.8rem 32.2rem 33.7rem  66.3rem ;
+} */
+
+/* DOWN */
+
+/* .banner-objects-down{
+    margin: 22.4rem 12.2rem 22.1rem 86.3rem;
+} */
+
 
 /* SOCIALMEDIA */
 
@@ -209,11 +231,10 @@ nav{
 /* MAIN */
 
 main{
+    width: 90%;
     max-width: 114rem;
-    width: 114rem;
     height: auto;
-    margin: 0 auto !important; 
-	float: none !important; 
+    margin: auto;
 }
 
 /* HIGHLIGHT */
@@ -288,7 +309,6 @@ main{
     padding: 3.1rem 2.3rem;
     margin: 2rem 0 0 0rem;
 }
-
 
 /* BIOGRAFIA CANDIDO*/
 
@@ -400,7 +420,6 @@ main{
 .biografia-elvis .container-biografia{
     margin: 20.8rem 0 0 0;
     display: flex;
-    justify-content: flex-end;
 }
 
 .biografia-elvis .biografia-header{
@@ -477,7 +496,6 @@ main{
     height: 33rem;
 }
     
-
 /* INFO AUTOR IMAGE SUBTITLE */
 
 .biografia-elvis .biografia-info-autor .image-autor cite{
@@ -582,7 +600,6 @@ main{
     height: 34.4rem;
 }
     
-
 /* INFO AUTOR IMAGE SUBTITLE */
 
 .biografia-manuel .biografia-info-autor .image-autor cite{
@@ -703,7 +720,6 @@ main{
     font-size: 1.8rem;
 }
 
-
 /* INGREDIENTES */
 
 .feijoada-info{
@@ -749,8 +765,9 @@ main{
 }
 
 .container-cardapio hr{
-    width: 102.8rem;
-    margin: 0 0 0 5.6rem;
+    width: 100%;
+    max-width: 102.8rem;
+    margin: auto;
 }
 
 /* ITENS */
@@ -759,6 +776,8 @@ main{
     display: flex;
     justify-content: space-around;
     padding: 3rem 0 0 0;
+    /* width: 100%;
+    max-width: 114rem; */
 }
 
 /* ICON */
@@ -902,4 +921,83 @@ footer .footer-end p + p span{
     font-size: 1.2rem;
     font-family: 'Rubik', sans-serif;
     color: var(--fc-text-buttons);
+}
+
+
+
+
+
+@media (max-width: 860px){
+
+    /* BUTTON MOBILE */
+
+    #menu-mobile{
+        display: block;
+        width: 3rem;
+        height: 2rem;
+        background: url('./assets/menu.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: none;
+    }
+
+    #menu-mobile:hover{
+        filter: brightness(0.1);
+    }
+
+    #nav-bar.active #menu-mobile{
+        background: url('./assets/exit.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 3rem;
+        height: 2.5rem;
+    }
+    /* NAV-BAR */
+
+    .container-nav{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+    }
+
+    /* NAV-BAR */
+
+    #nav-bar{
+        margin: auto 0;
+    }
+
+    /* NAV-BAR ITENS */
+        
+    #nav-bar ul{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 132px;
+        left: 40px;
+        transition: 0.9s;
+    }
+
+    #nav-bar.active#nav-bar ul{
+        display: block;
+        width: 90%;
+    }
+
+    #nav-bar.active#nav-bar ul li{
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+
+    /* BANNER */
+
+    #banner.active{
+        margin: 38rem 0 0 0;
+        transition: 0.3s;
+    }
+
+    /* STAR RATEUS */
+
+    .rate-us a + a{
+        display: none;
+    }
+
+
 }
