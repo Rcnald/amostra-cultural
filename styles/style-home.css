@@ -110,6 +110,7 @@ nav > *{
 
 .container-contato{
     display: flex;
+    align-items: center;
 }
 
 /* RATE US */
@@ -118,7 +119,7 @@ nav > *{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 1rem;
+    margin: 0 1rem;
 }
 
 .rate-us a,svg, picture{
@@ -139,16 +140,17 @@ nav > *{
 
 /* LOGIN */
 
-/* .login button{
-    padding: 1.1rem 3.9rem;
+.logout button{
+    padding: 1.1rem 0;
+    width: 100px;
     border-radius: 1rem;
 }
 
-.login a button {
+.logout a button {
     color: var(--secondary-dark);
     font-weight: 600;
     font-size: 20;
-} */
+}
 
 #banner{
     width: 100%;
@@ -545,7 +547,8 @@ main{
     display: flex;
     font-weight: 500;
     color: var(--gray);
-    width: 185px;
+    width: 90%;
+    max-width: 185px;
     margin: 0 0 0 7rem;
 }
 
@@ -915,7 +918,7 @@ main{
 }
 
 .container-image-rate-us-end picture, .container-image-rate-us-end picture img{
-    width: 100vw;
+    width: 90vw;
     max-width: 250px;
     height: auto;
 }
@@ -1054,10 +1057,109 @@ footer .footer-end p + p span{
     }
 }
 
-@media (max-width:950px){
+@media (max-width:970px){
     .container-highlight{
         flex-wrap: wrap;
     }
+
+     /* BUTTON MOBILE */
+
+     #menu-mobile{
+        display: block;
+        width: 24px;
+        height: 24px;
+        background: url('../assets/menu.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        /* align-self: center; */
+        border: none;
+        margin: 0.5rem 1rem 0 1rem;
+    }
+
+    #menu-mobile:hover{
+        filter: brightness(0.1);
+    }
+
+    #nav-bar.active #menu-mobile{
+        background: url('../assets/exit.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        margin: 0 1rem 0 1rem;
+    }
+    /* NAV-BAR */
+
+    .container-nav{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+    }
+
+    /* NAV-BAR */
+
+    #nav-bar{
+        margin: auto 0;
+    }
+
+    /* NAV-BAR ITENS */
+        
+    #nav-bar ul{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 132px;
+        left: 40px;
+        transition: 0.9s;
+    }
+
+    #nav-bar.active#nav-bar ul{
+        display: block;
+        width: 90%;
+    }
+
+    #nav-bar.active#nav-bar ul li{
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+
+    /* LOGOUT */
+
+    .logout, .logout a{
+        width: 24px;
+        height: 24px;  
+        font-size: 0.1rem;
+    }
+
+    .logout a button{
+        border: none;
+        width: 24px;
+        height: 24px;
+        padding: 0;
+        background: url('../assets/exit-icon.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        color: transparent;
+    }
+
+    /* HOVER */
+
+    .logout:hover{
+        filter: brightness(0);
+    }
+
+    /* BANNER */
+
+    #banner.active{
+        margin: 38rem 0 0 0;
+        transition: 0.3s;
+    }
+
+    /* STAR RATEUS */
+
+    .rate-us a + a{
+        display: none;
+    }
+
 
     /* BIOGRAFIA CANDIDO */
 
@@ -1125,76 +1227,7 @@ footer .footer-end p + p span{
         font-size: 58%;
     }
 
-    /* BUTTON MOBILE */
-
-    #menu-mobile{
-        display: block;
-        width: 3rem;
-        height: 2rem;
-        background: url('../assets/menu.svg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        border: none;
-    }
-
-    #menu-mobile:hover{
-        filter: brightness(0.1);
-    }
-
-    #nav-bar.active #menu-mobile{
-        background: url('../assets/exit.svg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 3rem;
-        height: 2.5rem;
-    }
-    /* NAV-BAR */
-
-    .container-nav{
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: row-reverse;
-    }
-
-    /* NAV-BAR */
-
-    #nav-bar{
-        margin: auto 0;
-    }
-
-    /* NAV-BAR ITENS */
-        
-    #nav-bar ul{
-        display: none;
-        position: absolute;
-        width: 100%;
-        top: 132px;
-        left: 40px;
-        transition: 0.9s;
-    }
-
-    #nav-bar.active#nav-bar ul{
-        display: block;
-        width: 90%;
-    }
-
-    #nav-bar.active#nav-bar ul li{
-        border-bottom: 1px solid rgba(0,0,0,0.05);
-    }
-
-    /* BANNER */
-
-    #banner.active{
-        margin: 38rem 0 0 0;
-        transition: 0.3s;
-    }
-
-    /* STAR RATEUS */
-
-    .rate-us a + a{
-        display: none;
-    }
-
+   
     .highlight-info{
         width: 90vw;
         margin: auto;
@@ -1434,7 +1467,7 @@ footer .footer-end p + p span{
 
     #banner {
         width: 90vw;
-        margin: auto;
+        /* margin: auto; */
     }
 
     #banner h1{
@@ -1545,7 +1578,7 @@ footer .footer-end p + p span{
        width: 90vw;
        margin: 50px 0 0 0;
     }
-    
+
     /* BIOGRAFIA MANUEL */
 
     .biografia-manuel .container-biografia{

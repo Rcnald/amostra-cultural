@@ -48,7 +48,6 @@ body{
     font-size: 1.6rem;
     font-family: 'Jost', sans-serif;
     background: var(--primary-base);
-    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -56,29 +55,35 @@ body{
 }
 
 main{
-    width: 111rem;
-    height: auto;
-    margin: 0 auto !important; 
-	float: none !important; 
+    width: 90%;
+    max-width: 1110px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
 }
 
 /* CONTAINER */
 
 .home{
     display: flex;
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
     gap: 1.2rem;
 }
 
 /* DESCRICAO */
 
 .home .descricao{
-    width: 73.9rem;
+    width: 100%;
+    max-width: 73.9rem;
     height: 36.8rem;
     background: var(--primary-light);
     border-radius: 0.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .container-descricao .descricao-info{
@@ -119,7 +124,8 @@ main{
 /* LOGIN */
 
 .home .login{
-    width: 35.9rem;
+    width: 100%;
+    max-width: 359px;
     height: 36.8rem;
     background: var(--primary-light);
     border-radius: 0.8rem;
@@ -127,6 +133,7 @@ main{
     justify-content: center;
     align-items: center;
     padding: 0 6rem;
+    
 }
 
 .container-login .login-info{
@@ -221,10 +228,30 @@ footer {
     font-family: 'Rubik', sans-serif;
     color: var(--white);
     opacity: 0.7;
+    margin: auto;
 }
 
 footer span{
     color: var(--primary-accent);
     font-size: 1rem;
     padding: 0 0.5rem;
+}
+
+@media (max-width:830px){
+    
+    .home{
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 359px;
+    }
+
+    .home .descricao{
+        width: 100%;
+        max-width: 359px;
+    }
+
+    footer{
+        width: 100%;
+        max-width: 359px;
+    }
 }
