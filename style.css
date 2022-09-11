@@ -77,13 +77,13 @@ nav > *{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 107rem;
+    max-width: 1070px;
 }
 
 /* LOGO */
 
 .image-logo img{
-    width: 6rem;
+    width: 60px;
 }
 
 /* NAVBAR */
@@ -122,8 +122,8 @@ nav > *{
 }
 
 .rate-us a,svg, picture{
-    width: 2.4rem;
-    height: 2.4rem;
+    width: 24px;
+    height: 24px;
 }
 
 .rate-us a + a{
@@ -152,12 +152,12 @@ nav > *{
 
 #banner{
     width: 100%;
-    max-width: 114rem;
-    height: 60rem;
+    max-width: 1140px;
+    height: 600px;
     padding: 6rem;
     background: url('./assets/bg-banner.svg');
-    border-radius: 4.8rem;
-    border-bottom-right-radius: 30rem;
+    border-radius: 48px;
+    border-bottom-right-radius: 300px;
     background-repeat: no-repeat;
     background-size: auto;
 }
@@ -176,7 +176,7 @@ nav > *{
     color: var(--fc-text-accent);
     text-align: justify;
     width: 100%;
-    max-width: 49rem;
+    max-width: 490px;
     padding: 4rem 0 11rem 0 ;
 }
 
@@ -185,7 +185,7 @@ nav > *{
 #banner button{
     background: var(--primary-dark);
     padding: 1.5rem 1.7rem;
-    border-radius: 1rem;
+    border-radius: 10px;
     border: none;
 }
 
@@ -222,7 +222,7 @@ nav > *{
 /* SOCIALMEDIA */
 
 .banner-socialmedia{
-    width: 6rem;
+    width: 60px;
     display: flex;
     justify-content: space-between;
     padding: 3.5rem 0 0 0;
@@ -232,7 +232,7 @@ nav > *{
 
 main{
     width: 90%;
-    max-width: 114rem;
+    max-width: 1140px;
     height: auto;
     margin: auto;
 }
@@ -255,7 +255,7 @@ main{
     font-weight: 600;
     font-size: 4.9rem;
     color: var(--black);
-    width: 23.3rem;
+    width: 233px;
     line-height: 5rem;
 }
 
@@ -263,14 +263,14 @@ main{
     font-weight: 500;
     font-size: 1.8rem;
     color: var(--gray);
-    width: 33.3rem;
+    width: 333px;
 }
 
 /* BUTTON */
 
 .highlight-info button{
     padding: 1.8rem 2.4rem;
-    border-radius: 1rem;
+    border-radius: 10px;
 }
 
 .highlight-info a button{
@@ -283,17 +283,17 @@ main{
 
 .highlight-image{
     display: flex;
-    width: 80.7rem;
-    height: 40rem;
+    width: 807px;
+    height: 400px;
     margin: 0 0 0 1rem;
 }
 
 .highlight-image .image-1, .image-2, .image-3{
-    width: 26.5rem;
-    height: 33.5rem;
+    width: 265px;
+    height: 335px;
     background: var(--white);
     border-radius: 4rem;
-    box-shadow: 0rem 1rem 5rem rgba(26, 26, 26, 0.15);
+    box-shadow: 0 10px 50px rgba(26, 26, 26, 0.15);
 }
 
 .highlight-image .image-1{
@@ -319,17 +319,17 @@ main{
 
 .biografia-candido .biografia-header{
     background: var(--gradient-accent);
-    width: 80rem;
-    height: 22rem;
-    border-radius: 1rem;
-    border-top-left-radius: 5rem;
+    width: 800px;
+    height: 220px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
     padding: 6.5rem;
 }
 
 /* TEXT */
 
 .biografia-candido .biografia-info-text p{
-    width: 75rem;
+    width: 750px;
     text-align: justify;
     margin: 2rem 0 0 2.5rem;
     text-indent: 6rem;
@@ -375,16 +375,16 @@ main{
 
 .biografia-candido .biografia-info-autor .image-autor{
     background: var(--primary-dark);
-    width: 27.5rem;
-    height: 35rem;
+    width: 275px;
+    height: 350px;
     padding: 6rem ;
-    border-radius: 1rem;
-    border-top-right-radius: 5rem;
+    border-radius: 10px;
+    border-top-right-radius: 50px;
 }
 
 .biografia-candido .biografia-info-autor .image-autor picture{
-    width: 23.9rem;
-    height: 34.4rem;
+    width: 239px;
+    height: 344px;
 }
     
 
@@ -394,7 +394,7 @@ main{
     display: flex;
     font-weight: 500;
     color: var(--gray);
-    width: 18.5rem;
+    width: 185px;
     margin: 0 0 0 7rem;
 }
 
@@ -424,17 +424,17 @@ main{
 
 .biografia-elvis .biografia-header{
     background: var(--gradient-accent-reverse);
-    width: 80rem;
-    height: 22rem;
-    border-radius: 1rem;
-    border-top-right-radius: 5rem;
+    width: 800px;
+    height: 220px;
+    border-radius: 10px;
+    border-top-right-radius: 50px;
     padding: 6.5rem;
 }
 
 /* TEXT */
 
 .biografia-elvis .biografia-info-text p{
-    width: 75rem;
+    width: 750px;
     text-align: justify;
     margin: 2rem 0 0 2.5rem;
     text-indent: 6rem;
@@ -484,16 +484,16 @@ main{
 
 .biografia-elvis .biografia-info-autor .image-autor{
     background: var(--primary-dark);
-    width: 27.5rem;
-    height: 35rem;
+    width: 275px;
+    height: 350px;
     padding: 6rem 2rem;
-    border-radius: 1rem;
-    border-top-left-radius: 5rem;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
 }
 
 .biografia-elvis .biografia-info-autor .image-autor picture{
-    width: 26.7rem;
-    height: 33rem;
+    width: 267px;
+    height: 330px;
 }
     
 /* INFO AUTOR IMAGE SUBTITLE */
@@ -502,7 +502,7 @@ main{
     display: flex;
     font-weight: 500;
     color: var(--gray);
-    width: 18.5rem;
+    width: 185px;
     margin: 0 0 0 7rem;
 }
 
@@ -532,17 +532,17 @@ main{
 
 .biografia-manuel .biografia-header{
     background: var(--gradient-accent);
-    width: 80rem;
-    height: 22rem;
-    border-radius: 1rem;
-    border-top-left-radius: 5rem;
+    width: 800px;
+    height: 220px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
     padding: 6.5rem;
 }
 
 /* TEXT */
 
 .biografia-manuel .biografia-info-text p{
-    width: 75rem;
+    width: 750px;
     text-align: justify;
     margin: 2rem 0 0 2.5rem;
     text-indent: 6rem;
@@ -588,16 +588,16 @@ main{
 
 .biografia-manuel .biografia-info-autor .image-autor{
     background: var(--primary-dark);
-    width: 27.5rem;
-    height: 35rem;
+    width: 275px;
+    height: 350px;
     padding: 6rem ;
-    border-radius: 1rem;
-    border-top-right-radius: 5rem;
+    border-radius: 10px;
+    border-top-right-radius: 50px;
 }
 
 .biografia-manuel .biografia-info-autor .image-autor picture{
-    width: 23.9rem;
-    height: 34.4rem;
+    width: 239px;
+    height: 344px;
 }
     
 /* INFO AUTOR IMAGE SUBTITLE */
@@ -606,7 +606,7 @@ main{
     display: flex;
     font-weight: 500;
     color: var(--gray);
-    width: 18.5rem;
+    width: 185px;
     margin: 0 0 0 7rem;
 }
 
@@ -635,17 +635,17 @@ main{
 
 .feijoada-header{
     display: flex;
-    width: 114rem;
-    height: 33.5rem;
+    width: 1140px;
+    height: 335px;
     background: var(--gradient-accent);
-    border-radius: 4rem;
+    border-radius: 40px;
     align-items: center;
 }
 
 /* IMAGE */
 
 .feijoada-header .image-feijoada img{
-    width: 30rem;
+    width: 300px;
     margin: 0 6rem 0 14rem;
 }
 
@@ -671,7 +671,7 @@ main{
 /* SUBTITLE */
 
 .info-header-feijoada .text-feijoada p{
-    width: 55rem;
+    width: 550px;
     font-size: 2rem;
     text-align: center;
     color: var(--fc-text-buttons);
@@ -685,7 +685,7 @@ main{
 
 .info-text-feijoada .title-feijoada{
     padding: 5rem 0 0 0.5rem;
-    height: 10rem;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -703,8 +703,8 @@ main{
 /* IMAGE */
 
 .info-text-feijoada .title-feijoada > img{
-    width: 10rem;
-    height: 10rem;
+    width: 100px;
+    height: 100px;
     display: flex;
     padding: 0 1.6rem 0 0;
     justify-content: flex-start;
@@ -714,7 +714,7 @@ main{
 
 .info-text-feijoada p{
     padding: 4.4rem 0 0 0.5rem;
-    width: 70rem;
+    width: 700px;
     text-align: justify;
     text-indent: 3rem;
     font-size: 1.8rem;
@@ -729,12 +729,12 @@ main{
 .info-ingredientes-feijoada{
     display: flex;
     justify-content: flex-start;
-    width: 40rem;
-    height: 29rem;
+    width: 400px;
+    height: 290px;
     background: var(--white);
     -webkit-box-shadow: 4px 3px 39px 12px rgba(0,0,0,0.25); 
     box-shadow: 4px 3px 39px 12px rgba(0,0,0,0.25); 
-    border-radius: 1rem;
+    border-radius: 10px;
     padding: 3.4rem;
     margin: 5rem 0 0 0;
 }
@@ -744,7 +744,7 @@ main{
 .info-ingredientes-feijoada h6{
     font-size: 1.8rem;
     font-weight: 100;
-    width: 26rem;
+    width: 260px;
 }
 
 /* CARDAPIO */
@@ -766,7 +766,7 @@ main{
 
 .container-cardapio hr{
     width: 100%;
-    max-width: 102.8rem;
+    max-width: 1028px;
     margin: auto;
 }
 
@@ -789,22 +789,22 @@ main{
 }
 
 .itens-cardapio .icon-cardapio picture{
-    width: 6.4rem;
-    height: 6.6rem;
+    width: 64px;
+    height: 66px;
     padding: 3.5rem 0 0 0;
 }
 
 /* INFO */
 
 .itens-cardapio .item-cardapio{
-    width: 20.5rem;
-    height: 21.5rem;
+    width: 205px;
+    height: 215px;
     border-radius: 1.5rem;
     background: var(--primary-light);
 }
 
 .itens-cardapio .item p{
-    width: 20.5rem;
+    width: 205px;
     padding: 4rem 0 0 0.5rem;
     text-align: justify;
 }
@@ -813,10 +813,10 @@ main{
 
 .sla{
     margin: 10.8rem auto 15rem;
-    width: 109rem;
-    height: 50rem;
+    width: 1090px;
+    height: 500px;
     background: var(--primary-light);
-    border-radius: 1rem;
+    border-radius: 10px;
 }
 
 /* RATE US END */
@@ -835,8 +835,8 @@ main{
 }
 
 .container-image-rate-us-end picture{
-    width: 25rem;
-    height: 18.2rem;
+    width: 250px;
+    height: 182px;
 }
 
 /* BUTTON */
@@ -850,9 +850,9 @@ main{
 
 .container-rate-us-end button{
     padding: 0.8rem 6.3rem;
-    width: 19rem;
-    height: 5rem;
-    border-radius: 2.5rem;
+    width: 190px;
+    height: 50px;
+    border-radius: 25px;
     border: none;
     background-color: var(--secondary-light);
 }
@@ -860,7 +860,7 @@ main{
 /* FOOTER */
 
 footer{
-    height: 28.4rem;
+    height: 284px;
     width: 100vw;
     max-width: 100%;
 }
@@ -869,7 +869,7 @@ footer{
 
 footer .footer-descricao{
     width: 100%;
-    height: 14.2rem;
+    height: 142px;
     background: var(--secondary-light);
     padding: 1rem 13rem;
     background-image: url('./assets/bg-footer.svg');
@@ -880,7 +880,7 @@ footer .footer-descricao{
 footer .footer-descricao h2{
     font-weight: 500;
     font-size: 4.9rem;
-    width: 80rem;
+    width: 800px;
     color: var(--white);
 }
 
@@ -894,7 +894,7 @@ footer .footer-descricao h4{
 
 footer .footer-end{
     width: 100%;
-    height: 14.2rem;
+    height: 142px;
     background: var(--primary-dark);
     display: flex;
     flex-direction: column;
@@ -1000,4 +1000,284 @@ footer .footer-end p + p span{
     }
 
 
+}
+
+@media (max-width: 730px){
+    #banner{
+        border-bottom-right-radius: 200px;
+    }
+
+    #banner h1{
+        font-size: 5rem;
+    }
+}
+/* 
+@media (max-width: 645px){
+    :root{
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 595px){
+    :root{
+        font-size: 45%;
+    }
+}
+
+@media (max-width:450px){
+    :root{
+        font-size: 40%;
+    }
+} */
+
+
+@media (max-width: 375px){
+    :root{
+        font-size: 50%;
+    }
+
+    /* BANNER */
+
+    #banner {
+        width: 90vw;
+        margin: auto;
+    }
+
+    #banner h1{
+        font-size: 3.1rem;
+    }
+
+    /* HIGHLIGHT */
+
+    .container-highlight{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .highlight-info {
+        width: 90vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .highlight-info h2{
+        font-size: 4.3rem;
+        text-align: center;
+        width: 90vw;
+    }
+
+    .highlight-info p{
+        font-size: 1.8rem;
+        text-align: justify;
+        width: 90vw;
+    }
+
+    .highlight-image{
+        padding: 5rem 0 150rem 0;
+        width: 90vw;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .highlight-image .image-2{
+        margin: 20px 0 0 0;
+    }
+
+    /* BIOGRAFIA CANDIDO */
+
+    .biografia-candido .container-biografia{
+        margin: 20.8rem 0 0 0;
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    
+    .biografia-candido .biografia-header{
+        width: 90vw;
+        height: 160px;
+    }
+    
+    /* TEXT */
+    
+    .biografia-candido .biografia-info-text p{
+        width: 85vw;
+        margin: auto;
+        font-size: 12px;
+        padding: 10px 0 0 0;
+    }
+   
+    /* INFO AUTOR */
+    
+    .biografia-candido .biografia-info-autor{
+       display: flex;
+       width: 90vw;
+       margin: 50px 0 0 0;
+    }
+    
+    /* INFO AUTOR IMAGE*/
+    
+    .biografia-candido .biografia-info-autor .image-autor{
+        width: 155px;
+        height: 223px;
+        
+    }
+    
+    .biografia-candido .biografia-info-autor .image-autor picture img{
+        width: 155px;
+        height: 223px;
+    }
+        
+    /* INFO AUTOR IMAGE SUBTITLE */
+    
+    .biografia-candido .biografia-info-autor .image-autor cite{
+        font-size: 10px;
+        margin: 0 0 0 2.5rem;
+    }
+    
+    /* INFO AUTOR TEXT*/
+    
+    .biografia-candido .biografia-info-autor .text-autor{
+        font-size: 10px ;
+        margin: 50px 0 0 55px;
+    }
+
+    .biografia-candido .biografia-info-autor .text-autor span{
+        font-size: 10px ;
+    }
+
+       /* BIOGRAFIA ELVIS */
+
+    .biografia-elvis .container-biografia{
+        margin: 20.8rem 0 0 0;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90vw;
+    }
+    
+    .biografia-elvis .biografia-header{
+        width: 90vw;
+        height: 160px;
+    }
+    
+    /* TEXT */
+    
+    .biografia-elvis .biografia-info-text p{
+        width: 85vw;
+        margin: auto;
+        font-size: 12px;
+        padding: 10px 0 0 0;
+    }
+   
+    /* INFO AUTOR */
+    
+    .biografia-elvis .biografia-info-autor{
+       display: flex;
+       flex-direction: row-reverse;
+       width: 90vw;
+       margin: 50px 0 0 0;
+    }
+    
+    /* INFO AUTOR IMAGE*/
+    
+    .biografia-elvis .biografia-info-autor .image-autor{
+        margin: 0 20px 0 0;
+        width: 174px;
+        height: 216px;
+        
+    }
+    
+    .biografia-elvis .biografia-info-autor .image-autor picture{
+        width: 174px;
+        height: 216px;
+    }
+
+    .biografia-elvis .biografia-info-autor .image-autor picture img{
+        width: 174px;
+        height: 216px;
+    }
+        
+    /* INFO AUTOR IMAGE SUBTITLE */
+    
+    .biografia-elvis .biografia-info-autor .image-autor cite{
+        font-size: 10px;
+        margin: 0 0 0 5rem;
+    }
+    
+    /* INFO AUTOR TEXT*/
+    
+    .biografia-elvis .biografia-info-autor .text-autor{
+        font-size: 10px ;
+        text-align: right;
+        margin: 50px 10px 0 0;
+    }
+
+    .biografia-elvis .biografia-info-autor .text-autor span{
+        font-size: 10px ;
+    }
+
+    /* BIOGRAFIA MANUEL */
+
+    .biografia-manuel .container-biografia{
+        margin: 20.8rem 0 0 0;
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    
+    .biografia-manuel .biografia-header{
+        width: 90vw;
+        height: 160px;
+    }
+    
+    /* TEXT */
+    
+    .biografia-manuel .biografia-info-text p{
+        width: 85vw;
+        margin: auto;
+        font-size: 12px;
+        padding: 10px 0 0 0;
+    }
+   
+    /* INFO AUTOR */
+    
+    .biografia-manuel .biografia-info-autor{
+       display: flex;
+       width: 90vw;
+       margin: 50px 0 0 0;
+    }
+    
+    /* INFO AUTOR IMAGE*/
+    
+    .biografia-manuel .biografia-info-autor .image-autor{
+        width: 155px;
+        height: 223px;
+        
+    }
+    
+    .biografia-manuel .biografia-info-autor .image-autor picture img{
+        width: 155px;
+        height: 223px;
+    }
+        
+    /* INFO AUTOR IMAGE SUBTITLE */
+    
+    .biografia-manuel .biografia-info-autor .image-autor cite{
+        font-size: 10px;
+        margin: 0 0 0 2.5rem;
+    }
+    
+    /* INFO AUTOR TEXT*/
+    
+    .biografia-manuel .biografia-info-autor .text-autor{
+        font-size: 10px ;
+        margin: 50px 0 0 55px;
+    }
+    
+    .biografia-manuel .biografia-info-autor .text-autor span{
+        font-size: 10px ;
+    }
 }
