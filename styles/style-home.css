@@ -197,30 +197,6 @@ nav > *{
     color: var(--fc-text-buttons);      
 }
 
-/* OBJECTS */
-
-/* .banner-objects-up, .banner-objects-down{
-    position: absolute;
-    width: 15.5rem;
-    height: 15.5rem;
-    border-radius: 10rem;
-    background: rgb(209,76,76);
-    background: linear-gradient(153deg, rgba(209,76,76,1) 0%, rgba(141,38,24,1) 100%);
-} */
-
-/* UP */
-
-/* .banner-objects-up{
-    margin: 10.8rem 32.2rem 33.7rem  66.3rem ;
-} */
-
-/* DOWN */
-
-/* .banner-objects-down{
-    margin: 22.4rem 12.2rem 22.1rem 86.3rem;
-} */
-
-
 /* SOCIALMEDIA */
 
 .banner-socialmedia{
