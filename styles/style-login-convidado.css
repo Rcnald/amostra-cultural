@@ -48,6 +48,7 @@ body{
     font-size: 1.6rem;
     font-family: 'Jost', sans-serif;
     background: var(--primary-base);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;

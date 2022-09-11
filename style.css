@@ -31,6 +31,7 @@ body{
     font-size: 1.6rem;
     font-family: 'Jost', sans-serif;
     background: var(--primary-base);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +40,7 @@ body{
 main{
     width: 90%;
     max-width: 1110px;
+
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
