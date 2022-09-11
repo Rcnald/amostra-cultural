@@ -48,7 +48,6 @@ body{
     font-size: 1.6rem;
     font-family: 'Jost', sans-serif;
     background: var(--primary-base);
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +59,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    margin: 1rem 0;
 }
 
 /* CONTAINER */
