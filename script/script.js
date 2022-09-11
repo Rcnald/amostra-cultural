@@ -1,3 +1,5 @@
+// script by 'Origamid'
+
 const menuMobile = document.getElementById('menu-mobile');
 
 function toggleMenu (event) {
