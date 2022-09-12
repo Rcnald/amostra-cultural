@@ -1192,12 +1192,12 @@ footer .footer-end p + p span{
     }
 
     .biografia-manuel .container-biografia .biografia-info-autor .text-autor{
-        padding: 0;
+        padding: 6rem 3rem;
     }
 }
 
 
-@media (max-width: 890px){
+@media (max-width: 890px){  
 
     :root{
         font-size: 58%;
@@ -1265,7 +1265,8 @@ footer .footer-end p + p span{
     
     .biografia-candido .biografia-info-autor .text-autor{
         font-size: 10px ;
-        margin: 20px 0 0 35px;
+        margin: 0px 0 0 35px;
+        padding: 0px;
     }
 
     .biografia-candido .biografia-info-autor .text-autor span{
@@ -1333,7 +1334,8 @@ footer .footer-end p + p span{
     
     .biografia-manuel .biografia-info-autor .text-autor{
         font-size: 10px ;
-        margin: 50px 0 0 55px;
+        margin: 0 0 0 35px;
+        padding: 0px;
     }
     
     .biografia-manuel .biografia-info-autor .text-autor span{
