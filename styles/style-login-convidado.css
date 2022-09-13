@@ -239,6 +239,10 @@ footer span{
 }
 
 @media (max-width:830px){
+
+    body{
+        height: auto;
+    }
     
     .home{
         flex-wrap: wrap;

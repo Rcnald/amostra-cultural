@@ -40,7 +40,6 @@ body{
 main{
     width: 90%;
     max-width: 1110px;
-
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -202,6 +201,10 @@ footer span{
 }
 
 @media (max-width:830px){
+
+    body{
+        height: auto;
+    }
     
     .home{
         flex-wrap: wrap;

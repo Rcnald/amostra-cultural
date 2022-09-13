@@ -365,7 +365,28 @@ main{
     padding: 0 0 0 1rem;
 }
 
-/* INFO AUTOR */
+/* SUBSUBTILE */
+
+.biografia-candido .biografia-info-text h2{
+    text-transform: uppercase;
+    padding: 3rem 0 0 0;
+    text-indent: 6rem;
+}
+
+/* LIST */
+
+.biografia-candido .biografia-info-text ul{
+    padding: 0 0 0 10rem;
+}
+
+.biografia-candido .biografia-info-text li{
+    list-style: disc;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--gray);
+}
+
 
 .biografia-candido .biografia-info-autor{
     margin: 0 0 0 1.6rem;
@@ -374,6 +395,8 @@ main{
     width: 100%;
     max-width: 275px;
 }
+
+/* INFO AUTOR */
 
 .biografia-candido .biografia-info-autor > *{
     margin: 0 0 8rem 0;
@@ -1155,6 +1178,12 @@ footer .footer-end p + p span{
         padding: 6rem 0 0 3rem;
     }
 
+    /* TEXT */
+
+    .biografia-candido .biografia-info-text p{
+        width: 100%;
+    }
+
     /* BIOGRAFIA ELVIS */
 
     .biografia-elvis .container-biografia{
@@ -1223,6 +1252,12 @@ footer .footer-end p + p span{
         font-size: 1.8rem;
         text-align: justify;
         width: 60vw;
+    }
+
+    /* TEXT */
+
+    .biografia-candido .biografia-info-text p {
+        width: 90%;
     }
 
 }
@@ -1408,6 +1443,12 @@ footer .footer-end p + p span{
         font-size: 44%;
     }
 
+    /* SUBSUBTITLE */
+
+    .biografia-candido .biografia-info-text h2{
+        font-size: 1em;
+    }
+
      /* FOOTER */
 
      footer .footer-descricao h2{
@@ -1515,6 +1556,18 @@ footer .footer-end p + p span{
         margin: auto;
         font-size: 12px;
         padding: 10px 0 0 0;
+    }
+
+    /* LIST */
+
+    .biografia-candido .biografia-info-text li {
+        font-size: 12px;
+    }
+
+    /* SUBSUBTITLES */
+
+    .biografia-candido .biografia-info-text h2{
+        font-size: 0.75em;
     }
    
     /* INFO AUTOR */
