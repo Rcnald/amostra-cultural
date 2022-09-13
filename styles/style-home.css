@@ -605,6 +605,30 @@ main{
     color: var(--gray);
 }
 
+.biografia-manuel .biografia-info-text h1{
+    margin: 2rem 0 2rem 1.5rem;
+    text-transform: uppercase;
+}
+
+
+.biografia-manuel .biografia-info-text .manuel-poemas{
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    gap: 4rem;
+}
+
+.biografia-manuel .biografia-info-text .manuel-poemas .poema-01, .poema-02, .poema-03{
+    padding: 0 0 3rem 0;
+}
+
+.biografia-manuel .biografia-info-text .manuel-poemas h3,h4{
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+}
+
 /* TITLE */
 
 .biografia-manuel .biografia-header h3{
@@ -1447,6 +1471,10 @@ footer .footer-end p + p span{
 
     .biografia-candido .biografia-info-text h2{
         font-size: 1em;
+    }
+
+    .biografia-manuel .biografia-info-text .manuel-poemas{
+        display: block;
     }
 
      /* FOOTER */
