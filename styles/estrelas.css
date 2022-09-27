@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*Estilo das estrelas da avaliação*/
+
+.estrelas {
+    display: flex;
+    justify-content: center;
+}
+
+.estrelas input[type=radio] {
+    display: none;
+}
+
+.estrelas label i.fa::before {
+    content: '\f005';
+    color: #FC0;
+}
+
+.estrelas input[type=radio]:checked~label i.fa::before {
+    color: #CCC;
+}
+
+#submitButton {
+    margin-top: 10px;
+}
+
+#subEstrelas {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+
+/*Botão para voltar ao topo*/
+
+.topo {
+    background-color: var(--fc-text-title);
+    position: fixed;
+    bottom: 20px;
+    right: -500px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s all;
+}
+
+.show-button .topo {
+    right: 20px;
+    transition: .4s all;
+}

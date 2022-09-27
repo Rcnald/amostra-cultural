@@ -38,18 +38,18 @@
                         </picture>
                         <h4>Para acessar a area de <span>gestão</span> insira <span>rm</span> e <span>senha</span></h4>
                     </div>
-                    <form action="#" method="post">
+                    <form action="../php/login-gestao.php" method="POST">
                         <fieldset>
-                            <input type="text" name="" id="" placeholder="Usuário">
-                            <input type = "number" name="" id="" placeholder="RM" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "5"/>
+                            <input type="text" name="usuario" id="usuario" placeholder="Usuário">
+                            <input type = "number" name="rm" id="rm" placeholder="RM" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "5"/>
                         </fieldset>
                         <fieldset>
-                            <input type="password" name="" id="" placeholder="Senha">
+                            <input type="password" name="senha" id="senha" placeholder="Senha">
                         </fieldset>
+                         <div class="login-buttons">
+                          <button>Entrar</button>
+                         </div>
                     </form>
-                    <div class="login-buttons">
-                        <button>Entrar</button>
-                    </div>
                 </div>
             </div>
         </section>

@@ -304,6 +304,84 @@ main{
     margin: 2rem 0 0 0rem;
 }
 
+/* HORARIOS */
+
+.container-horarios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table caption{
+    font-weight: 600;
+    font-size: 3.9rem;
+    margin: 10rem 0;
+}
+
+thead{
+    background: var(--gradient-accent);
+    height: 100px;
+}
+
+thead th:first-child{
+    border-top-left-radius:25px;
+}
+
+thead th:last-child{
+    border-top-right-radius:25px;
+}
+
+table{
+    border-collapse: collapse;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    background:rgba(142,32,32,1);    border-radius:25px;
+}
+
+thead th{
+    border: none;
+    color: var(--white);
+    padding: 2.5rem;
+}
+
+td{
+    padding: 0.5rem;
+}
+
+.span{
+    background: var(--primary-dark);
+    color: var(--white);
+}
+
+tbody tr.lg{
+    background: #D3D3D3;
+}
+tbody tr.g{
+    background: var(--primary-light);
+}
+
+tbody  tr:first-child th{
+    background:rgba(142,32,32,1);
+    border-bottom-left-radius: 0;
+}
+
+tbody tr:first-child .conner{
+    border-top-left-radius: 25px;
+}
+
+tbody tr:first-child .conner::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #701603;
+}
+
+tbody tr th{
+    background:linear-gradient(180deg, rgba(142,32,32,1) 0%, rgba(220,84,84,1) 100%);
+    color: var(--white);
+    border-bottom-left-radius: 25px;
+}
+
 /* BIOGRAFIA CANDIDO*/
 
 .biografia-candido .container-biografia{
@@ -472,15 +550,14 @@ main{
     max-width: 800px;
 }
 
-.biografia-elvis .biografia-info-text p{
+.biografia-elvis .biografia-info-text video{
     width: 95%;
     max-width: 750px;
-    text-align: justify;
-    margin: 2rem 0 2rem 2.5rem;
+    margin: 2rem;
     text-indent: 6rem;
     font-weight: 500;
     font-size: 1.8rem;
-    color: var(--gray);
+    border-radius: 1rem;
 }
 
 /* TITLE */
@@ -913,15 +990,20 @@ main{
     text-align: justify;
 }
 
-/* SLA */
+/* SALA */
 
-.sla{
-    margin: 10.8rem auto 15rem;
+.sala-container{
+    margin: 20.8rem auto 15rem;
     width: 100%;
     max-width: 1090px;
     height: 500px;
-    background: var(--primary-light);
-    border-radius: 10px;
+    border-radius: 1rem;
+}
+
+.sala-container img{
+    width: 100%;
+    max-width: 1090px;
+    border-radius: 1rem;
 }
 
 /* RATE US END */
@@ -1284,6 +1366,13 @@ footer .footer-end p + p span{
         width: 90%;
     }
 
+    table{
+        max-width: 100vw;
+        width: 90%;
+        height: 100vh;
+        font-size: 1.2rem;
+    }
+
 }
 
 @media (max-width: 730px){
@@ -1477,6 +1566,26 @@ footer .footer-end p + p span{
         display: block;
     }
 
+    /* ELVIS */
+
+    .biografia-elvis .biografia-info-text video{
+        max-width: 100%;
+        width: 800px;
+        margin: 0;
+        padding: 2rem 1.5rem;
+        border-radius: 3rem;
+    }
+
+    table{
+        font-size: 1rem;
+        height: 100vh;
+        width: 90%;
+    }
+
+    table caption{
+        font-size: 2rem;
+    }
+
      /* FOOTER */
 
      footer .footer-descricao h2{
@@ -1667,5 +1776,19 @@ footer .footer-end p + p span{
        display: flex;
        width: 90vw;
        margin: 50px 0 0 0;
+    }
+
+    table{
+        font-size: 0.8rem;
+        height: 110vh;
+        width: 90%;
+    }
+
+    table td{
+        font-weight: 800;
+    }
+
+    table caption{
+        font-size: 1.8rem;
     }
 }

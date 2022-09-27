@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style-home.css">
+    <link rel="stylesheet" href="../styles/estrelas.css">
     <link rel="shortcut icon" href="../favicon.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,22 +20,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b95d68622e.js" crossorigin="anonymous"></script>
     <title>Amostra Cultural - Home</title>
 </head>
+
 <body>
-    <header>
+    <header id="topo">
         <section class="container-header">
             <nav>
-                <div class="image-logo">
-                    <picture>
-                        <img src="../favicon.svg" alt="logo da amostra cultural">
-                    </picture>
-                </div>
+                <a href=""> 
+                    <div class="image-logo">
+                        <picture>
+                            <img src="../favicon.svg" alt="logo da amostra cultural">
+                        </picture>
+                    </div>
+                </a>
                 <div class="container-nav">
                     <div id="nav-bar">
                         <button id="menu-mobile"></button>
                         <ul>
-                            <li><a href="#">Horários</a></li>
+                            <li><a href="#horarios">Horários</a></li>
                             <li><a href="#candido-page" name="candido">Cândido</a></li>
                             <li><a href="#elvis-page">Elvis Presley</a></li>
                             <li><a href="#manuel-page">Manuel Bandeira</a></li>
@@ -43,12 +49,12 @@
                     </div>
                     <div class="container-contato">
                         <div class="rate-us">
-                            <a href="">
+                            <a href="#Avaliação">
                                 <picture>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="fill: rgba(106, 104, 104, 1);transform: none;"><path d="m6.516 14.323-1.49 6.452a.998.998 0 0 0 1.529 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082a1 1 0 0 0-.59-1.74l-5.701-.454-2.467-5.461a.998.998 0 0 0-1.822 0L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.214 4.107zm2.853-4.326a.998.998 0 0 0 .832-.586L12 5.43l1.799 3.981a.998.998 0 0 0 .832.586l3.972.315-3.271 2.944c-.284.256-.397.65-.293 1.018l1.253 4.385-3.736-2.491a.995.995 0 0 0-1.109 0l-3.904 2.603 1.05-4.546a1 1 0 0 0-.276-.94l-3.038-2.962 4.09-.326z"></path></svg>
                                 </picture>
                             </a>
-                            <a href="#">
+                            <a href="#Avaliação">
                                 Avaliação
                             </a>
                         </div>
@@ -64,10 +70,11 @@
             <div class="container-banner">
                 <div class="banner-info">
                     <h1>Seja bem-vindo(a)!</h1>
-                    <p>A amostra cultural é um evento único, quando os alunos tem a oportunidade de socializar seus conhecimentos e produções construídas, de forma coletiva e individual, aos familiares e comunidade escolar como um todo, com espaços organizados especialmente pelos discentes de forma a atribuir sentido ao que foi trabalhado.</p>
+                    <p>A amostra cultural é um evento único, quando os alunos tem a oportunidade de socializar seus conhecimentos e produções construídas, de forma coletiva e individual, aos familiares e comunidade escolar como um todo, com espaços organizados
+                        especialmente pelos discentes de forma a atribuir sentido ao que foi trabalhado.</p>
                 </div>
                 <div class="banner-button">
-                    <a href="#"><button>Sobre o 2&deg;DSA</button></a>
+                    <a href="#dsa"><button>Foto do 2&deg;DSA</button></a>
                 </div>
                 <div class="banner-socialmedia">
                     <div class="facebook">
@@ -77,14 +84,14 @@
                     </div>
                     <div class="instagram">
                         <picture>
-                           <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(245, 244, 244, 1);"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg></a>
+                            <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(245, 244, 244, 1);"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg></a>
                         </picture>
                     </div>
                 </div>
             </div>
         </section>
     </header>
-    
+
     <main>
         <section class="highlight">
             <div class="container-highlight">
@@ -112,6 +119,7 @@
                 </div>
             </div>
         </section>
+        
         <section class="biografia-candido" id="candido-page">
             <div class="container-biografia">
                 <div class="biografia-info-text">
@@ -125,33 +133,42 @@
                         </div>
                     </div>
                     <h2>como foi sua infância</h2>
-                    <p>Cândido Portinari nasceu no interior de São Paulo numa cidadezinha chamada Brodowski em 30 de dezembro de 1903. Filho de imigrantes italianos teve uma infância pobre numa fazenda de café. Desde muito cedo já expressa gosto pela arte, começando a pintar com nove anos de idade.</p>
+                    <p>Cândido Portinari nasceu no interior de São Paulo numa cidadezinha chamada Brodowski em 30 de dezembro de 1903. Filho de imigrantes italianos teve uma infância pobre numa fazenda de café. Desde muito cedo já expressa gosto pela arte,
+                        começando a pintar com nove anos de idade.</p>
 
                     <h2>o que o fez se tornar pintor</h2>
-                    <p> Com 15 anos, Portinari foi para o Rio de Janeiro e se instalou na casa de parentes. Ingressa no Liceu de Artes e Ofícios, mas a cidade grande não lhe fascinou e resolveu retornar para Brodósqui. Com 18 anos, voltou para o Rio e ingressou na Escola Nacional de Belas Artes.</p>
-              
-                    <p>Como queria desenvolver seu potencial ao máximo o artista partiu para o Rio de Janeiro em 1919, com uma família amiga para ingressar no Liceu de Artes e Ofícios. No ano seguinte, tornou-se aluno livre da Escola Nacional de Belas Artes. O esforço e o talento não tardaram e deram bons frutos.</p>
-              
+                    <p> Com 15 anos, Portinari foi para o Rio de Janeiro e se instalou na casa de parentes. Ingressa no Liceu de Artes e Ofícios, mas a cidade grande não lhe fascinou e resolveu retornar para Brodósqui. Com 18 anos, voltou para o Rio e ingressou
+                        na Escola Nacional de Belas Artes.</p>
+
+                    <p>Como queria desenvolver seu potencial ao máximo o artista partiu para o Rio de Janeiro em 1919, com uma família amiga para ingressar no Liceu de Artes e Ofícios. No ano seguinte, tornou-se aluno livre da Escola Nacional de Belas Artes.
+                        O esforço e o talento não tardaram e deram bons frutos.</p>
+
                     <p>Em 1921, vendeu a tela Baile na Roça, que havia pintado assim que chegou à cidade. Em 1922 expôs no Salão da Escola de Belas Artes. Em 1923, o “Retrato de Paulo Mazzucchelli”, ganhou os três prêmios do Salão.</p>
 
                     <h2>o que ele retrata em suas obras</h2>
-                    <p>Suas pinturas costumam trazer temas que retratam as condições em que vivia o povo brasileiro na primeira metade do século XX. Portinari teve muito êxito ao destacar questões sociais, festas populares, o trabalho na roça, a infância, entre outros assuntos.</p>
+                    <p>Suas pinturas costumam trazer temas que retratam as condições em que vivia o povo brasileiro na primeira metade do século XX. Portinari teve muito êxito ao destacar questões sociais, festas populares, o trabalho na roça, a infância,
+                        entre outros assuntos.</p>
 
                     <h2>importância da arte dele para o nosso país</h2>
-                    <p>Candido Portinari foi um importante artista plástico brasileiro da fase modernista. Reconhecido mundialmente, recebeu diversos prêmios e participou de inúmeras exposições. Além da pintura, Portinari também se dedicou à ilustração, gravura e à docência, sendo professor de artes plásticas.</p>
+                    <p>Candido Portinari foi um importante artista plástico brasileiro da fase modernista. Reconhecido mundialmente, recebeu diversos prêmios e participou de inúmeras exposições. Além da pintura, Portinari também se dedicou à ilustração,
+                        gravura e à docência, sendo professor de artes plásticas.</p>
 
-                    <p>Candido Portinari foi um importante artista plástico brasileiro da fase modernista. Reconhecido mundialmente, recebeu diversos prêmios e participou de inúmeras exposições. Além da pintura, Portinari também se dedicou à ilustração, gravura e à docência, sendo professor de artes plásticas.</p>
+                    <p>Candido Portinari foi um importante artista plástico brasileiro da fase modernista. Reconhecido mundialmente, recebeu diversos prêmios e participou de inúmeras exposições. Além da pintura, Portinari também se dedicou à ilustração,
+                        gravura e à docência, sendo professor de artes plásticas.</p>
 
                     <p>Um dos pintores brasileiros mais festejados do século 20, Portinari foi o artista que conseguiu retratar questões sociais sem desagradar ao governo, aproximar-se da arte moderna europeia sem perder a admiração do grande público.</p>
 
                     <h2>como ele teve um reconhecimento como artista</h2>
-                    <p>Portinari teve enorme reconhecimento como artista ao denunciar um Brasil cheio de injustiças e desigualdade. Engajado politicamente, seja através de sua arte, na qual retratava as mazelas do povo, e até mesmo em seu posicionamento político-partidário, candidatando-se a deputado e senador.</p>
+                    <p>Portinari teve enorme reconhecimento como artista ao denunciar um Brasil cheio de injustiças e desigualdade. Engajado politicamente, seja através de sua arte, na qual retratava as mazelas do povo, e até mesmo em seu posicionamento
+                        político-partidário, candidatando-se a deputado e senador.</p>
 
                     <h2>o que o fez estudar arte em Paris</h2>
-                    <p>Em 1928, aos 25 anos, Portinari ganhou uma medalha de ouro da Escola Nacional de Belas Artes, cujo prêmio incluía uma viagem a Paris, onde conheceu artistas como Van Dongen e Othon Friesz, além de Maria Martinelli, uruguaia com quem se casou e viveu toda a vida.</p>
+                    <p>Em 1928, aos 25 anos, Portinari ganhou uma medalha de ouro da Escola Nacional de Belas Artes, cujo prêmio incluía uma viagem a Paris, onde conheceu artistas como Van Dongen e Othon Friesz, além de Maria Martinelli, uruguaia com quem
+                        se casou e viveu toda a vida.</p>
 
                     <h2>obras mais importantes</h2>
-                    <p>Nas principais obras de Portinari, encontramos os temas que frequentemente ele visitava em suas pinturas como as questões sociais, a fauna e flora. Com certeza, dentre as suas mais de cinco mil obras, há maior destaque para os painéis Guerra e Paz (1953-1956), que foram presenteados à sede da ONU em 1956, sendo a obra mais expressiva do artista. Também é a obra "O Lavrador de Café", 1939, um dos mais importantes trabalhos da arte brasileira</p>
+                    <p>Nas principais obras de Portinari, encontramos os temas que frequentemente ele visitava em suas pinturas como as questões sociais, a fauna e flora. Com certeza, dentre as suas mais de cinco mil obras, há maior destaque para os painéis
+                        Guerra e Paz (1953-1956), que foram presenteados à sede da ONU em 1956, sendo a obra mais expressiva do artista. Também é a obra "O Lavrador de Café", 1939, um dos mais importantes trabalhos da arte brasileira</p>
 
                     <p>
                         <ul>
@@ -172,10 +189,12 @@
                     <h2>principais características de suas obras</h2>
                     <p>Suas obras de arte refletem influências do surrealismo, cubismo e da arte dos muralistas mexicanos; - Arte figurativa, valorizando as tradições da pintura.</p>
 
-                    <p>Suas pinturas costumam trazer temas que retratam as condições em que vivia o povo brasileiro na primeira metade do século XX. Portinari teve muito êxito ao destacar questões sociais, festas populares, o trabalho na roça, a infância, entre outros assuntos.</p>
+                    <p>Suas pinturas costumam trazer temas que retratam as condições em que vivia o povo brasileiro na primeira metade do século XX. Portinari teve muito êxito ao destacar questões sociais, festas populares, o trabalho na roça, a infância,
+                        entre outros assuntos.</p>
 
                     <h2>relação com a arte moderna</h2>
-                    <p>Cândido Portinari foi um artista plástico brasileiro e um dos maiores nomes do modernismo. Destacou-se por suas obras nacionalistas, na qual explorou a cultura, o povo, a fauna, a flora e os costumes do Brasil. Portinari foi um dos poucos artistas que conquistou tamanha reputação internacional.</p>
+                    <p>Cândido Portinari foi um artista plástico brasileiro e um dos maiores nomes do modernismo. Destacou-se por suas obras nacionalistas, na qual explorou a cultura, o povo, a fauna, a flora e os costumes do Brasil. Portinari foi um dos
+                        poucos artistas que conquistou tamanha reputação internacional.</p>
                 </div>
                 <div class="biografia-info-autor">
                     <div class="image-autor">
@@ -229,13 +248,7 @@
                             </picture>
                         </div>
                     </div>
-                    <p>          Candido Portinari (1903-1962) foi um pintor brasileiro, um dos principais nomes do Modernismo. Suas obras alcançaram fama internacional, entre elas, o painel Guerra e Paz, na sede da ONU em Nova Iorque, e a série Emigrantes, do acervo do Museu de Arte de São Paulo (MASP).</p>
-            
-                    <p>  Candido Portinari nasceu em Brodósqui, no interior de São Paulo, no dia 30 de dezembro de 1903. Filho dos imigrantes italianos Giovan Battista Portinari e Domenica di Bassano era o segundo filho entre 12 irmãos. Aos seis anos já começava a desenhar. Não concluiu o curso primário e aos 14 anos participou da restauração da Igreja de Brodowski.</p>
-              
-                    <p>  Com 15 anos, Portinari foi para o Rio de Janeiro e se instalou na casa de parentes. Ingressa no Liceu de Artes e Ofícios, mas a cidade grande não lhe fascinou e resolveu retornar para Brodósqui. Com 18 anos, voltou para o Rio e ingressou na Escola Nacional de Belas Artes.</p>
-              
-                    <p>  Em 1921, vendeu a tela Baile na Roça, que havia pintado assim que chegou à cidade. Em 1922 expôs no Salão da Escola de Belas Artes. Em 1923, o “Retrato de Paulo Mazuchelli”, ganhou os três prêmios do Salão.</p>
+                    <video src="../video/Elvis-video.mp4" controls preload="auto" muted autoplay></video>
                 </div>
             </div>
         </section>
@@ -251,30 +264,35 @@
                             <h6>Manuel Bandeira</h6>
                         </div>
                     </div>
-                    <p>Manuel Carneiro de Sousa Bandeira Filho nasceu no dia 19 de abril de 1886, no Recife, Pernambuco.Filho do engenheiro Manuel Carneiro de Souza Bandeira e de Francelina Ribeiro, abastada família de proprietários rurais, advogados e políticos.Manuel Bandeira iniciou seus estudos no Recife.Em 1896, com 10 anos, mudou-se com a família para o Rio de Janeiro, concluindo o curso secundário no Colégio Pedro II.Em 1903, começa a estudar Arquitetura na Faculdade Politécnica em São Paulo. No entanto, abandona o curso pois sua saúde fica frágil, pois havia contraído uma tuberculose.</p>
+                    <p>Manuel Carneiro de Sousa Bandeira Filho nasceu no dia 19 de abril de 1886, no Recife, Pernambuco.Filho do engenheiro Manuel Carneiro de Souza Bandeira e de Francelina Ribeiro, abastada família de proprietários rurais, advogados e políticos.Manuel
+                        Bandeira iniciou seus estudos no Recife.Em 1896, com 10 anos, mudou-se com a família para o Rio de Janeiro, concluindo o curso secundário no Colégio Pedro II.Em 1903, começa a estudar Arquitetura na Faculdade Politécnica em São
+                        Paulo. No entanto, abandona o curso pois sua saúde fica frágil, pois havia contraído uma tuberculose.</p>
 
-                    <p>Dez anos depois, ainda doente, foi para a Suíça em busca da cura, onde permaneceu durante um ano, de 1913 a 1914, eliminando definitivamente a doença. Nesse período, conviveu com o poeta francês, internado na mesma clínica, Paul Éluard, sem a menor esperança de sobreviver, conforme confessou posteriormente no poema Pneumotórax, do livro Libertinagem.</p>
-              
+                    <p>Dez anos depois, ainda doente, foi para a Suíça em busca da cura, onde permaneceu durante um ano, de 1913 a 1914, eliminando definitivamente a doença. Nesse período, conviveu com o poeta francês, internado na mesma clínica, Paul Éluard,
+                        sem a menor esperança de sobreviver, conforme confessou posteriormente no poema Pneumotórax, do livro Libertinagem.</p>
+
                     <p>De volta ao Brasil, em 1914, dedica-se à sua verdadeira paixão: a literatura. Durante anos de trabalhos publicados em periódicos, publica seu primeiro livro de poesias intitulado “A Cinza das Horas” (1917).</p>
-              
-                    <p>Em  "A Cinza das Horas", é nítida influência Parnasiana e Simbolista, onde os poemas são contaminados pela melancolia e pelo sofrimento, como no poema Desencanto.</p>
+
+                    <p>Em "A Cinza das Horas", é nítida influência Parnasiana e Simbolista, onde os poemas são contaminados pela melancolia e pelo sofrimento, como no poema Desencanto.</p>
 
                     <p>Em 1921, Manuel Bandeira conheceu Mário de Andrade e através deste, colaborou com a revista modernista Klaxon, com o poema Bonheur Lyrique. Morando no Rio de Janeiro, sua participação no Movimento Modernista foi sempre a distância.</p>
 
-                    <p>Para a Semana de Arte Moderna de 1922, enviou o poema Os Sapos, um de seus poemas mais famosos,que lido por Ronald de Carvalho, tumultuou o Teatro Municipal, com vaias e gritos. O poema satiriza os princípios do parnasianismo, com um deboche agressivo dirigido à métrica e à rima desses poemas.</p>
+                    <p>Para a Semana de Arte Moderna de 1922, enviou o poema Os Sapos, um de seus poemas mais famosos,que lido por Ronald de Carvalho, tumultuou o Teatro Municipal, com vaias e gritos. O poema satiriza os princípios do parnasianismo, com
+                        um deboche agressivo dirigido à métrica e à rima desses poemas.</p>
 
                     <p>Manuel Bandeira foi cada vez mais se engajando no ideário modernista e sua adesão às novas técnicas deu-se gradativamente, à medida que via na renovação a única alternativa à sua poesia.</p>
 
-                    <p>Em 1924, publicou "Ritmo Dissoluto", obra de transição. A partir de 1925, escreve crônicas para jornais onde faz críticas de cinema e música.Foi como poeta que Manuel Bandeira conquistou sua posição de relevo na literatura brasileira, mas se dedicou também à prosa, crônicas e memórias. Em 1938, Manuel Bandeira foi nomeado professor de Literatura do ColégioPedro II.</p>
+                    <p>Em 1924, publicou "Ritmo Dissoluto", obra de transição. A partir de 1925, escreve crônicas para jornais onde faz críticas de cinema e música.Foi como poeta que Manuel Bandeira conquistou sua posição de relevo na literatura brasileira,
+                        mas se dedicou também à prosa, crônicas e memórias. Em 1938, Manuel Bandeira foi nomeado professor de Literatura do ColégioPedro II.</p>
 
-                    <p>Em 1930, Manuel Bandeira publicou "Libertinagem", obra de plena maturidade modernista, (onde Vou-me embora pra Pasárgada) foi escrito com todas as suas implicações (verso livre, língua coloquial, irreverência, liberdade criadora etc.), e o alargamento da lírica nacional pela sua capacidade de extrair a poesia das coisas aparentemente banais do cotidiano. Devido a isto ficou conhecido como o poeta do cotidiano.</p>
+                    <p>Em 1930, Manuel Bandeira publicou "Libertinagem", obra de plena maturidade modernista, (onde Vou-me embora pra Pasárgada) foi escrito com todas as suas implicações (verso livre, língua coloquial, irreverência, liberdade criadora etc.),
+                        e o alargamento da lírica nacional pela sua capacidade de extrair a poesia das coisas aparentemente banais do cotidiano. Devido a isto ficou conhecido como o poeta do cotidiano.</p>
 
                     <p>Em 1940 foi eleito para a Academia Brasileira de Letras, ocupando a cadeira de n.º 24. Em 1943 foi nomeado professor de Literatura Hispano-Americana da Faculdade Nacional de Filosofia.</p>
 
                     <p>Manuel Bandeira faleceu no Rio de Janeiro, no dia 13 de outubro de 1968. Suas poesias haviam sido reunidas, pouco antes, em Estrela da Vida Inteira (1966).E é considerado um dos grandes nomes da literatura modernista.</p>
 
                     <h1>Poemas:</h1>
-                    
 
                     <div class="manuel-poemas">
                         <div class="poema-01">
@@ -446,6 +464,7 @@
                 </div>
             </div>
         </section>
+
         <section class="feijoada" id="feijoada-page">
             <div class="container-feijoada">
                 <div class="feijoada-header">
@@ -472,7 +491,9 @@
                                 <img src="../assets/star-icon.svg" alt="ilustraçao de estrela">
                             </picture>
                         </div>
-                        <p>(AQUI É PRA FICAR SOBRE A ADAPTAÇÃO TALVEZ, OU SOBRE A FEIJOADA) It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                        <p>(AQUI É PRA FICAR SOBRE A ADAPTAÇÃO TALVEZ, OU SOBRE A FEIJOADA) It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that
+                            it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                            default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
                     </div>
                     <div class="info-ingredientes-feijoada">
                         <h6>O QUE FOI UTILIZADO NA PREPARAÇÃO...</h6>
@@ -483,6 +504,7 @@
                 </div>
             </div>
         </section>
+
         <section class="cardapio" id="cardapio-page">
             <div class="container-cardapio">
                 <h2>Cardápio</h2>
@@ -537,35 +559,166 @@
             </div>
         </section>
         
-        <section class="sla"></section>
+        <section class="horarios" id="horarios">
+            <div class="container-horarios">
+                <table cellspacing="0">
+                    <caption>Horários</caption>
+                    <thead>
+                        <tr>
+                            <th colspan="1" scope="colgroup">Data</th>  
+                            <th colspan="1" scope="colgroup">Ação</th>
+                            <th colspan="1" scope="colgroup">Horários</th>
+                            <th colspan="6" scope="colgroup">Salas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="lg">
+                            <th scope="row" rowspan="5">29/set</th>
+                            <td colspan="1" class="conner">APRESENTAM</td>
+                            <td colspan="1">7:30 a 9:20 h organização final das salas</td>
+                            <td colspan="1" class="span"> 2&deg;DSA</td>
+                            <td colspan="1">1&deg;DSA</td>
+                            <td colspan="1">2&deg;DSB</td>
+                            <td colspan="1">2&deg;EAA</td>
+                            <td colspan="1">3&deg;EAA</td>
+                            <td colspan="1">2&deg;EAB</td>
+                        </tr>
+                        <tr class="g"> 
+                            <td colspan="1">VISITA + RELATORIO</td>
+                            <td colspan="1">9:30/11:00 h</td>
+                            <td colspan="1">1&deg;EAA</td>
+                            <td colspan="1">3&deg;EAB</td>
+                            <td colspan="1">3&deg;DSA</td>
+                            <td colspan="1">3&deg;DSA</td>
+                            <td colspan="1">1&deg;DSB</td>
+                            <td colspan="1">3&deg;DSB</td>
+                        </tr>
+                        <tr class="lg">
+                            <td colspan="1" rowspan="2">VISITAÇÃO GERAL</td>
+                            <td colspan="1" rowspan="2">11:00/14:00 h - visitação livre</td>
+                            <td colspan="2">11:00/11:30 h</td>
+                            <td colspan="4">Visitação da Banca Avaliadora</td>
+                        </tr>
+                        <tr class="lg">
+                            <td colspan="2">13:00/14:30 h</td>
+                            <td colspan="4">Degustação de pratos - A partir desse momento cada sala servirá a 40 alunos ques receberão, atencipadamente seu "voucher" com informações do local (sala) que deverá reirar seu prato</td>
+                        </tr>
+                        <tr class="g">
+                            <td colspan="1" rowspan="1">LIMPEZA</td>
+                            <td colspan="1" rowspan="1">após as 14:00 h</td>
+                            <td colspan="6">LIMPEZA E ORGANIZAÇÃO DAS SALAS QUE APRESENTARAM</td>
+
+                        </tr>                        <!-- <tr><td colspan="9"></td></tr> -->
+
+                            <tr class="lg 2">
+
+                            <th scope="row" rowspan="5">30/set</th>
+                            <td colspan="1">APRESENTAM</td>
+                            <td colspan="1">7:30 a 9:20 h organização final das salas</td>
+                            
+                            <td colspan="1">1&deg;EAA</td>
+                            <td colspan="1">3&deg;EAB</td>
+                            <td colspan="1">3&deg;DSA</td>
+                            <td colspan="1">3&deg;DSA</td>
+                            <td colspan="1">1&deg;DSB</td>
+                            <td colspan="1">3&deg;DSB</td>
+                        </tr>
+                        <tr class="g">
+                            <td colspan="1">VISITA + RELATORIO</td>
+                            <td colspan="1">9:30/11:00 h</td>
+                            <td colspan="1" class="span">2&deg;DSA</td>
+                            <td colspan="1">1&deg;DSA</td>
+                            <td colspan="1">2&deg;DSB</td>
+                            <td colspan="1">2&deg;EAA</td>
+                            <td colspan="1">3&deg;EAA</td>
+                            <td colspan="1">2&deg;EAB</td>
+                        </tr>
+                        <tr class="lg">
+                            <td colspan="1" rowspan="2">VISITAÇÃO GERAL</td>
+                            <td colspan="1" rowspan="2">11:00/14:00 h - visitação livre</td>
+                            <td colspan="2">11:00/11:30 h</td>
+                            <td colspan="4">Visitação da Banca Avaliadora</td>
+                        </tr>
+                        <tr class="lg">
+                            <td colspan="2">13:00/14:30 h</td>
+                            <td colspan="4">Degustação de pratos - A partir desse momento cada sala servirá a 40 alunos ques receberão, atencipadamente seu "voucher" com informações do local (sala) que deverá reirar seu prato</td>
+                        </tr>
+                        <tr class="g">
+                            <td colspan="1" rowspan="1">LIMPEZA</td>
+                            <td colspan="1" rowspan="1">após as 14:00 h</td>
+                            <td colspan="6">LIMPEZA E ORGANIZAÇÃO DAS SALAS QUE APRESENTARAM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="sala" id="dsa">
+            <div class="sala-container">
+                <img src="../assets/sala-photo.svg" alt="Foto da sala toda reunida" title="Foto do 2&deg;DSA">
+            </div>
+        </section>
 
     </main>
 
-    <section class="rate-us-end">
+    <!--Sistema de avaliação-->
+    <section class="rate-us-end" id="Avaliação">
         <div class="container-rate-us-end">
-            <a href="#"><button>Avaliar</button></a>
+            <form action="../php/processa.php" method="POST" enctype="multipart/form-data">
+                <div class="estrelas">
+                    <input type="radio" name="estrela" id="vazio" value="" checked>
+
+                    <label for="estrela_um"><i class="fa"></i></label>
+                    <input type="radio" name="estrela" id="estrela_um" value="1">
+
+                    <label for="estrela_dois"><i class="fa"></i></label>
+                    <input type="radio" name="estrela" id="estrela_dois" value="2">
+
+                    <label for="estrela_tres"><i class="fa"></i></label>
+                    <input type="radio" name="estrela" id="estrela_tres" value="3">
+
+                    <label for="estrela_quatro"><i class="fa"></i></label>
+                    <input type="radio" name="estrela" id="estrela_quatro" value="4">
+
+                    <label for="estrela_cinco"><i class="fa"></i></label>
+                    <input type="radio" name="estrela" id="estrela_cinco" value="5">
+                </div>
+                <div id="submitButton">
+                    <button><input type="submit" value="Avaliar" id="subEstrelas"></button>
+                </div>
+
+            </form>
         </div>
     </section>
 
     </section class="image-rate-us-end">
-        <div class="container-image-rate-us-end">
-            <picture>
-                <img src="../assets/rate-us.svg" alt="ilustraçao mulher me pe avaliando uma pagina">
-            </picture>
-        </div>
+    <div class="container-image-rate-us-end">
+        <picture>
+            <img src="../assets/rate-us.svg" alt="ilustraçao mulher me pe avaliando uma pagina">
+        </picture>
+    </div>
     <section>
 
-    <footer>
-        <div class="footer-descricao">
-            <h2>Obrigado por ter vindo até aqui! </h2>
-            <h4>Esperamos que tenha gostado.</h4>
-        </div>
-        <div class="footer-end">
-            <p>Deixe sua avaliação, ela é muito importante.</p>
-            <p>&copy; 2022 2&deg;DSA - <span>Amostra Cultural</span></p>
-        </div>
-    </footer>
+        <footer>
+            <div class="footer-descricao">
+                <h2>Obrigado por ter vindo até aqui! </h2>
+                <h4>Esperamos que tenha gostado.</h4>
+            </div>
+            <div class="footer-end">
+                <p>Deixe sua avaliação, ela é muito importante.</p>
+                <p>&copy; 2022 2&deg;DSA - <span>Amostra Cultural</span></p>
+            </div>
+            <div data-scroll="suave" data-anima="scroll">
+                <a href="#topo">
+                    <div class="topo">
+                        <img src="../assets/circle-up.svg" alt="Voltar ao topo">
+                    </div>
+                </a>
+            </div>
+        </footer>
 </body>
+
 </html>
 
 <script src="../script/script.js"></script>
+<script src="../script/scroll.js"></script>
